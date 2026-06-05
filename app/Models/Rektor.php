@@ -6,5 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rektor extends Model
 {
-    //
+    protected $fillable = [
+        'nama',
+        'jabatan',
+        'image',
+    ];
 }

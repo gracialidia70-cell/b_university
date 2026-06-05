@@ -13,7 +13,7 @@ return new class extends Migration
 {
     Schema::create('cooperations', function (Blueprint $table) {
         $table->id();
-        $table->text('image');
+        $table->text('image')->nullable();
         $table->timestamps();
     });
 }
